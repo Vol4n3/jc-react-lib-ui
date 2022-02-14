@@ -4,6 +4,7 @@ const resolve = (...paths) => {
   return fs.realpathSync(path.join(__dirname, ...paths));
 };
 module.exports = {
+  styleguideDir: 'docs',
   pagePerSection: true,
   sections: [
     {
